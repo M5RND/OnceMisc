@@ -1,4 +1,4 @@
-
+# Issue 1:
 `Citing for cache lock: Could not get lock /var/lib/dpkg/lock. It is held by process 34145 (dpkg)... 8s`
 
 ```
@@ -48,6 +48,7 @@ The `systemctl mask` command is the nuclear option—it prevents the service fro
 even if dependencies require it. Use `disable` alone if you want to keep the option to manually start it later.
 - - -
 
+# Issue 2:
 ```
 $ sudo systemctl stop unattended-upgrades
 sudo systemctl stop apt-daily.service
