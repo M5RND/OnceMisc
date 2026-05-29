@@ -1,7 +1,7 @@
 # Issue 1: "Waiting for cache lock: Could not get lock"
 
 ```
-$ sudo apt install md2term
+$ sudo apt install [something]
 Waiting for cache lock: Could not get lock /var/lib/dpkg/lock. It is held by process 34241 (dpkg)      
 Waiting for cache lock: Could not get lock /var/lib/dpkg/lock. It is held by process 34241 (dpkg)
 ...
